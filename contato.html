@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola de Rock</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="menu">
+        <img src="./img/logo.png">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><span>Estilos</span>
+                <ul>
+                    <li><a href="heavy_metal.html">Heavy Metal</a></li>
+                    <li><a href="grunge.html">Grunge</a></li>
+                    <li><a href="punk.html">Punk</a></li>
+                </ul>
+            </li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="container">
+            <div class="box">
+                <form action="">
+                    <fieldset>
+                        <legend><b>Fale com a gente...</b></legend>
+                        <br>
+                        <div class="inputbox">
+                            <input type="text" name="nome" id="nome" class="inputUser" required>
+                            <label for="nome" class="labelInput">Nome Completo</label>
+                        </div>
+                        <br><br>
+                        <div class="inputbox">
+                            <input type="text" name="email" id="email" class="inputUser" required>
+                            <label for="email" class="labelInput">Email</label>
+                        </div>
+                        <br><br>
+                        <div class="inputbox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">Telefone</label>
+                        </div>
+                        <br><br>
+                        <p>Qual estilo você mais gostou?:</p>
+                        <br>
+                        <input type="radio" name="heavy" id="heavy" value="heavy" required>
+                        <label for="heavy">Heavy Metal</label>
+                        <br>
+                        <input type="radio" name="grunge" id="grunge" value="grunge" required>
+                        <label for="grunge">Grunge</label>
+                        <br>
+                        <input type="radio" name="punk" id="punk" value="punk" required>
+                        <label for="punk">Punk</label>
+                        <br><br><br>
+                        <div class="inputbox">
+                            <label for="data_nascimento"><b>Data de nascimento</b></label>
+                            <input type="date" name="data_nascimento" id="data_nascimento" required>
+                        </div>
+                        <br><br>
+                        <div class="inputbox">
+                            <textarea name="textarea" id="textarea" class="inputUser" rows="5" required></textarea>
+                            <label for="textarea" class="labelInput">Escreva aqui...</label>
+                        </div>
+                        <br><br>
+                        <input type="submit" name="submit" id="submit">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2013-2021 | Jonatan Vasconcelos</p>
+        <a href="https://www.linkedin.com/in/jonatan-vasconcelos-08bb29171"><img src="./img/linkedin.png"></a>
+        <a href="https://www.instagram.com/jonatanvs?r=nametag"><img src="./img/instagram.png"></a>
+        <a href="https://www.facebook.com/jonatan.vasconcelos"><img src="./img/facebook.png"></a>
+        <a href="https://youtube.com/user/jonatanmk"><img src="./img/youtube.png"></a>
+        <a href="https://github.com/jonatanmk"><img src="./img/github.png"></a>
+    </footer>
+</body>
+</html>
