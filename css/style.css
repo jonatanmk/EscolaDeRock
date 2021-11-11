@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'RocknRoll One', sans-serif;
-
 }
 
 body {
@@ -44,7 +43,7 @@ body {
 }
 
 .menu a{
-    padding: 13px;
+    padding: 12px;
     display: block;
     text-decoration: none;
     background-color: #3b2b1b;
@@ -57,7 +56,7 @@ body {
 }
 
 .menu span{
-    padding: 13px;
+    padding: 12px;
     display: block;
     text-decoration: none;
     background-color: #3b2b1b;
